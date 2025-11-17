@@ -19,20 +19,20 @@ export default function Hero() {
           className="max-w-3xl"
         >
           <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-gray-300">
-            <span className="h-1.5 w-1.5 rounded-full bg-cyan-400" /> Live AI Decision Engine
+            <span className="h-1.5 w-1.5 rounded-full bg-cyan-400" /> Human + AI Decision Platform
           </div>
           <h1 className="mt-4 text-4xl sm:text-6xl font-semibold tracking-tight text-white">
-            Luxury AI for decisive businesses
+            Augment every decision, not just the dashboard
           </h1>
           <p className="mt-5 text-lg text-gray-300 leading-relaxed">
-            AetherIQ blends probabilistic modeling, knowledge graphs, and real‑time signals to surface the next best action with boardroom confidence.
+            AI Augmented helps teams move from reports to action—combining agents, knowledge graphs, and real‑time signals to recommend the next best step inside your actual workflows.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-3">
-            <a href="#demo" className="inline-flex items-center justify-center rounded-full bg-white text-black px-6 py-3 font-medium hover:bg-white/90 transition">
-              Start your private pilot
+            <a href="#contact" className="inline-flex items-center justify-center rounded-full bg-white text-black px-6 py-3 font-medium hover:bg-white/90 transition">
+              Request a private demo
             </a>
             <a href="#capabilities" className="inline-flex items-center justify-center rounded-full border border-white/20 px-6 py-3 text-white hover:bg-white/10 transition">
-              Explore capabilities
+              Explore the platform
             </a>
           </div>
         </motion.div>

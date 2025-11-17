@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion'
 
 const stats = [
-  { k: '12%', v: 'Uplift in revenue', note: 'From next‑best‑action pilots in retail' },
-  { k: '4x', v: 'Faster decisions', note: 'Automated analytics to action loop' },
-  { k: '99.95%', v: 'SLA', note: 'Enterprise‑grade availability' },
+  { k: '30–60%', v: 'Cost-to-serve reduction', note: 'through automation and first‑time resolution' },
+  { k: '10–20%', v: 'Revenue uplift', note: 'from proactive, personalized next‑best‑actions' },
+  { k: '4–8x', v: 'Faster time to answer', note: 'shorter loop from signal → insight → action' },
 ]
 
 export default function Metrics() {
@@ -17,8 +17,8 @@ export default function Metrics() {
           transition={{ duration: 0.6 }}
           className="text-center"
         >
-          <h2 className="text-3xl sm:text-5xl font-semibold text-white">Proven at scale</h2>
-          <p className="mt-4 text-gray-300">Operational excellence that meets the standards of global leaders.</p>
+          <h2 className="text-3xl sm:text-5xl font-semibold text-white">Outcomes that compound</h2>
+          <p className="mt-4 text-gray-300">Proven lift across revenue, cost, and speed—without sacrificing control.</p>
         </motion.div>
 
         <div className="mt-12 grid sm:grid-cols-3 gap-6">

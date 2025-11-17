@@ -14,7 +14,7 @@ export default function Navbar() {
             <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-cyan-400 to-fuchsia-500 p-[1px]">
               <div className="h-full w-full rounded-lg bg-black"></div>
             </div>
-            <span className="text-white font-semibold tracking-wide">AetherIQ</span>
+            <span className="text-white font-semibold tracking-wide">AI Augmented</span>
           </a>
 
           <nav className="hidden md:flex items-center gap-8">
@@ -23,7 +23,7 @@ export default function Navbar() {
             <a className={navLink} href="#contact">Contact</a>
             <a
               className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/5 px-4 py-2 text-sm text-white hover:bg-white/10 transition"
-              href="#demo"
+              href="#contact"
             >
               <Sparkles className="h-4 w-4 text-cyan-400" />
               Request a demo
@@ -46,7 +46,7 @@ export default function Navbar() {
             <a className="block text-gray-200/80 hover:text-white" href="#capabilities" onClick={() => setOpen(false)}>Capabilities</a>
             <a className="block text-gray-200/80 hover:text-white" href="#metrics" onClick={() => setOpen(false)}>Proof</a>
             <a className="block text-gray-200/80 hover:text-white" href="#contact" onClick={() => setOpen(false)}>Contact</a>
-            <a className="block text-white rounded-lg border border-white/20 bg-white/5 px-4 py-2 text-center" href="#demo" onClick={() => setOpen(false)}>Request a demo</a>
+            <a className="block text-white rounded-lg border border-white/20 bg-white/5 px-4 py-2 text-center" href="#contact" onClick={() => setOpen(false)}>Request a demo</a>
           </div>
         </div>
       )}

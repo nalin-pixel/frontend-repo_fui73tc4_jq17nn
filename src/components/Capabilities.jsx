@@ -1,27 +1,47 @@
 import { motion } from 'framer-motion'
-import { Brain, LineChart, Shield, Sparkles } from 'lucide-react'
+import { Brain, LineChart, Shield, Sparkles, Workflow, Activity, Users, Gauge } from 'lucide-react'
 
 const items = [
   {
     icon: Brain,
-    title: 'Causal Inference',
-    desc: 'Move beyond correlation. Understand impact drivers and simulate outcomes across markets and segments.'
+    title: 'Autonomous agents in your tools',
+    desc: 'Proactive copilots that watch signals, reason over context, and take action in CRMs, ERPs, and data apps.'
   },
   {
     icon: LineChart,
-    title: 'Real-time Signals',
-    desc: 'Fuse streaming data with historical context to update decisions in milliseconds.'
+    title: 'Causal + graph-powered reasoning',
+    desc: 'Understand why things move, not just that they moved—simulate interventions and forecast outcomes with confidence.'
   },
   {
     icon: Shield,
-    title: 'Governed AI',
-    desc: 'Transparent, auditable recommendations with built-in guardrails for compliance.'
+    title: 'Enterprise-grade control',
+    desc: 'Granular permissions, audit trails, and policy guardrails so every recommendation is explainable and compliant.'
   },
   {
     icon: Sparkles,
-    title: 'Private Models',
-    desc: 'Proprietary models deployed in your VPC with strict data residency controls.'
+    title: 'Private by default',
+    desc: 'Run models in your VPC. Keep data residency and IP protection aligned with your governance.'
   },
+  {
+    icon: Activity,
+    title: 'Real-time decisions',
+    desc: 'Fuse streaming events with history to update recommendations in milliseconds.'
+  },
+  {
+    icon: Users,
+    title: 'Human-in-the-loop',
+    desc: 'Blend automation with expert oversight. Accept, refine, or roll back actions with one click.'
+  },
+  {
+    icon: Workflow,
+    title: 'Workflow-native',
+    desc: 'Embed into the tools your teams already use—no new tabs, no context switching.'
+  },
+  {
+    icon: Gauge,
+    title: 'Measurable impact',
+    desc: 'Closed-loop experimentation to attribute lift and continuously improve policies.'
+  }
 ]
 
 export default function Capabilities() {
@@ -36,8 +56,9 @@ export default function Capabilities() {
           transition={{ duration: 0.6 }}
           className="text-3xl sm:text-5xl font-semibold text-white"
         >
-          Decisions you can defend
+          AI that collaborates with your team
         </motion.h2>
+        <p className="mt-4 text-gray-300 max-w-3xl">From forecasting and planning to sales ops and support, bring an always‑on partner that explains its reasoning, proposes actions, and learns from outcomes.</p>
         <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {items.map((it, i) => (
             <motion.div
